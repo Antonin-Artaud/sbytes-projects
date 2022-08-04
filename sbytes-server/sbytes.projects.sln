@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbytes-server", "sbytes-server.csproj", "{9C4FB7F6-C5E4-42F0-A13F-4A561425EE54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbytes.infrastructure", "..\sbytes.infrastructure\sbytes.infrastructure.csproj", "{E4BA9BAB-5BFF-4A9A-8350-317AAF1A8173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbytes.shared", "..\sbytes.shared\sbytes.shared.csproj", "{3AA13222-3CC1-4D31-A549-7BE63F6ADBD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commons", "Commons", "{6291D066-C97F-4102-8A2C-C0624F9A11BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerGrpc", "ServerGrpc", "{70DE44B4-C8D9-43A0-9C98-D238DFAA61EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C4FB7F6-C5E4-42F0-A13F-4A561425EE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4FB7F6-C5E4-42F0-A13F-4A561425EE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4FB7F6-C5E4-42F0-A13F-4A561425EE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4FB7F6-C5E4-42F0-A13F-4A561425EE54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4BA9BAB-5BFF-4A9A-8350-317AAF1A8173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BA9BAB-5BFF-4A9A-8350-317AAF1A8173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BA9BAB-5BFF-4A9A-8350-317AAF1A8173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BA9BAB-5BFF-4A9A-8350-317AAF1A8173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA13222-3CC1-4D31-A549-7BE63F6ADBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA13222-3CC1-4D31-A549-7BE63F6ADBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA13222-3CC1-4D31-A549-7BE63F6ADBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA13222-3CC1-4D31-A549-7BE63F6ADBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3AA13222-3CC1-4D31-A549-7BE63F6ADBD3} = {6291D066-C97F-4102-8A2C-C0624F9A11BD}
+		{E4BA9BAB-5BFF-4A9A-8350-317AAF1A8173} = {70DE44B4-C8D9-43A0-9C98-D238DFAA61EB}
+		{9C4FB7F6-C5E4-42F0-A13F-4A561425EE54} = {70DE44B4-C8D9-43A0-9C98-D238DFAA61EB}
+	EndGlobalSection
+EndGlobal

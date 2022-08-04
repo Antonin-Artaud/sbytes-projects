@@ -1,0 +1,15 @@
+C:\Github\sbytes-projects\sbytes.infrastructure\bin\Debug\net6.0\sbytes.infrastructure.deps.json
+C:\Github\sbytes-projects\sbytes.infrastructure\bin\Debug\net6.0\sbytes.infrastructure.dll
+C:\Github\sbytes-projects\sbytes.infrastructure\bin\Debug\net6.0\sbytes.infrastructure.pdb
+C:\Github\sbytes-projects\sbytes.infrastructure\bin\Debug\net6.0\sbytes.shared.dll
+C:\Github\sbytes-projects\sbytes.infrastructure\bin\Debug\net6.0\sbytes.shared.pdb
+C:\Github\sbytes-projects\sbytes.infrastructure\obj\Debug\net6.0\sbytes.infrastructure.csproj.AssemblyReference.cache
+C:\Github\sbytes-projects\sbytes.infrastructure\obj\Debug\net6.0\sbytes.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\sbytes-projects\sbytes.infrastructure\obj\Debug\net6.0\sbytes.infrastructure.AssemblyInfoInputs.cache
+C:\Github\sbytes-projects\sbytes.infrastructure\obj\Debug\net6.0\sbytes.infrastructure.AssemblyInfo.cs
+C:\Github\sbytes-projects\sbytes.infrastructure\obj\Debug\net6.0\sbytes.infrastructure.csproj.CoreCompileInputs.cache
+C:\Github\sbytes-projects\sbytes.infrastructure\obj\Debug\net6.0\sbytes.infrastructure.csproj.CopyComplete
+C:\Github\sbytes-projects\sbytes.infrastructure\obj\Debug\net6.0\sbytes.infrastructure.dll
+C:\Github\sbytes-projects\sbytes.infrastructure\obj\Debug\net6.0\refint\sbytes.infrastructure.dll
+C:\Github\sbytes-projects\sbytes.infrastructure\obj\Debug\net6.0\sbytes.infrastructure.pdb
+C:\Github\sbytes-projects\sbytes.infrastructure\obj\Debug\net6.0\ref\sbytes.infrastructure.dll

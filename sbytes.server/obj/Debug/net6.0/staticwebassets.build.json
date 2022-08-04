@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6vXC+9b/Z7tzxpwMSNIpS/rQx/VQO7yJLDBdOvSDRlw=",
+  "Source": "sbytes.server",
+  "BasePath": "_content/sbytes.server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

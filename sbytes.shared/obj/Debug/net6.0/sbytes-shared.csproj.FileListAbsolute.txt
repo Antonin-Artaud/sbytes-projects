@@ -1,0 +1,12 @@
+C:\Github\sbytes-projects\sbytes-shared\bin\Debug\net6.0\sbytes-shared.deps.json
+C:\Github\sbytes-projects\sbytes-shared\bin\Debug\net6.0\sbytes-shared.dll
+C:\Github\sbytes-projects\sbytes-shared\bin\Debug\net6.0\sbytes-shared.pdb
+C:\Github\sbytes-projects\sbytes-shared\obj\Debug\net6.0\sbytes-shared.csproj.AssemblyReference.cache
+C:\Github\sbytes-projects\sbytes-shared\obj\Debug\net6.0\sbytes-shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\sbytes-projects\sbytes-shared\obj\Debug\net6.0\sbytes-shared.AssemblyInfoInputs.cache
+C:\Github\sbytes-projects\sbytes-shared\obj\Debug\net6.0\sbytes-shared.AssemblyInfo.cs
+C:\Github\sbytes-projects\sbytes-shared\obj\Debug\net6.0\sbytes-shared.csproj.CoreCompileInputs.cache
+C:\Github\sbytes-projects\sbytes-shared\obj\Debug\net6.0\sbytes-shared.dll
+C:\Github\sbytes-projects\sbytes-shared\obj\Debug\net6.0\refint\sbytes-shared.dll
+C:\Github\sbytes-projects\sbytes-shared\obj\Debug\net6.0\sbytes-shared.pdb
+C:\Github\sbytes-projects\sbytes-shared\obj\Debug\net6.0\ref\sbytes-shared.dll

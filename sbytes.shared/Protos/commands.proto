@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+option csharp_namespace = "sbytes-shared";
+
+package commands;
+
+service GrpcCommandService {
+  rpc Execute(ExecuteRequest) returns (ExecuteResponse) {}
+}
+
+message ExecuteRequest {
+  CommandType command = 1;
+  optional string ticketId = 2;
+  optional Ticket ticket = 3;
+}
+
+message ExecuteResponse {
+  CommandType command = 1;
+  optional string ticketId = 2;
+  optional Ticket ticket = 3;
+  CommandStatus commandStatus = 4;
+}
+
+enum CommandType {
+  CreateTicketRequest  = 0;
+  CreateTicketResponse = 1;
+  ReadTicketRequest    = 2;
+  ReadTicketResponse   = 3;
+  UpdateTicketRequest  = 4;
+  UpdateTicketResponse = 5;
+  DeleteTicketRequest  = 6;
+  DeleteTicketResponse = 7;
+}
+
+enum CommandStatus {
+  Success = 0;
+  Pending = 1;
+  Failure = 2;
+}
+
+message Ticket {
+  string id = 1;
+  map<string, string> credentials = 2;
+}

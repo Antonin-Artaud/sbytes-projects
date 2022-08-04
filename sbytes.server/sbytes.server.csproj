@@ -5,10 +5,10 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+        <RootNamespace>sbytes.server</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-        <Protobuf Include="../sbytes.shared/Protos/greet.proto" GrpcServices="Server" />
         <Protobuf Include="../sbytes.shared/Protos/commands.proto" GrpcServices="Server" />
     </ItemGroup>
     
@@ -20,6 +20,8 @@
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
+        <PackageReference Include="MediatR" Version="10.0.1" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
     </ItemGroup>
 
     <ItemGroup>
