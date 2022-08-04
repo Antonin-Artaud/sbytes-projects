@@ -7,15 +7,13 @@ using sbytes.server.Domain.Commands;
 using sbytes.shared;
 using sbytes.shared.Helpers.Rpc.Server;
 
-public class CommandService : CommandsGrpc.CommandsGrpcBase
+public class GrpcService : CommandService.CommandServiceBase
 {
     private readonly MessageOrchestrator _messageOrchestrator;
-    private readonly ILogger<CommandService> _logger;
 
-    public CommandService(MessageOrchestrator messageOrchestrator, ILogger<CommandService> logger)
+    public GrpcService(MessageOrchestrator messageOrchestrator)
     {
         _messageOrchestrator = messageOrchestrator;
-        _logger = logger;
     }
 
     public override async Task<CreateTicketResponse> CreateTicket(CreateTicketRequest request, ServerCallContext context)

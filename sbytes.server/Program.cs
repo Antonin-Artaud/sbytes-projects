@@ -21,7 +21,7 @@ internal static class Program
         builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
         WebApplication app = builder.Build();
         
-        app.MapGrpcService<CommandService>();
+        app.MapGrpcService<GrpcService>();
         app.MapGet("/", handler: delegate()
         {
             return "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909";

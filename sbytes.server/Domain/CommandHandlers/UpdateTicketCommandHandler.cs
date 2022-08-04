@@ -13,8 +13,14 @@ public class UpdateTicketCommandHandler : IRequestHandler<UpdateTicketCommand, U
         _ticketRepository = ticketRepository;
     }
 
-    public Task<Unit> Handle(UpdateTicketCommand request, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(UpdateTicketCommand request, CancellationToken cancellationToken)
     {
-        throw new NotImplementedException();
+        if (Guid.TryParse(request.TicketEntity.Id, out Guid id))
+        {
+            await _ticketRepository.UpdateTicketAsync(request.TicketEntity);
+            return Unit.Value;
+        }
+        
+        throw new Exception("Invalid ticket id");
     }
 }

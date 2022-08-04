@@ -8,9 +8,9 @@
 using grpc = global::Grpc.Core;
 
 namespace sbytes.shared {
-  public static partial class CommandsGrpc
+  public static partial class CommandService
   {
-    static readonly string __ServiceName = "commands.CommandsGrpc";
+    static readonly string __ServiceName = "commands.CommandService";
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
@@ -88,9 +88,9 @@ namespace sbytes.shared {
       get { return global::sbytes.shared.CommandsReflection.Descriptor.Services[0]; }
     }
 
-    /// <summary>Base class for server-side implementations of CommandsGrpc</summary>
-    [grpc::BindServiceMethod(typeof(CommandsGrpc), "BindService")]
-    public abstract partial class CommandsGrpcBase
+    /// <summary>Base class for server-side implementations of CommandService</summary>
+    [grpc::BindServiceMethod(typeof(CommandService), "BindService")]
+    public abstract partial class CommandServiceBase
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::sbytes.shared.CreateTicketResponse> CreateTicket(global::sbytes.shared.CreateTicketRequest request, grpc::ServerCallContext context)
@@ -115,7 +115,7 @@ namespace sbytes.shared {
     /// <summary>Creates service definition that can be registered with a server</summary>
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(CommandsGrpcBase serviceImpl)
+    public static grpc::ServerServiceDefinition BindService(CommandServiceBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_CreateTicket, serviceImpl.CreateTicket)
@@ -128,7 +128,7 @@ namespace sbytes.shared {
     /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, CommandsGrpcBase serviceImpl)
+    public static void BindService(grpc::ServiceBinderBase serviceBinder, CommandServiceBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_CreateTicket, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::sbytes.shared.CreateTicketRequest, global::sbytes.shared.CreateTicketResponse>(serviceImpl.CreateTicket));
       serviceBinder.AddMethod(__Method_ReadTicket, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::sbytes.shared.GetTicketRequest, global::sbytes.shared.GetTicketResponse>(serviceImpl.ReadTicket));

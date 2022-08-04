@@ -49,3 +49,10 @@ C:\Github\sbytes.projects\sbytes.server\obj\Debug\net6.0\ref\sbytes.server.dll
 C:\Github\sbytes.projects\sbytes.server\bin\Debug\net6.0\MediatR.dll
 C:\Github\sbytes.projects\sbytes.server\bin\Debug\net6.0\MediatR.Contracts.dll
 C:\Github\sbytes.projects\sbytes.server\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Github\sbytes.projects\sbytes.server\bin\Debug\net6.0\AutoMapper.dll
+C:\Github\sbytes.projects\sbytes.server\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Github\sbytes.projects\sbytes.server\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Github\sbytes.projects\sbytes.server\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Github\sbytes.projects\sbytes.server\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Github\sbytes.projects\sbytes.server\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Github\sbytes.projects\sbytes.server\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll

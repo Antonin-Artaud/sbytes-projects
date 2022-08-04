@@ -8,7 +8,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbytes.shared", "..\sbytes.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commons", "Commons", "{6291D066-C97F-4102-8A2C-C0624F9A11BD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerGrpc", "ServerGrpc", "{70DE44B4-C8D9-43A0-9C98-D238DFAA61EB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{70DE44B4-C8D9-43A0-9C98-D238DFAA61EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AAC1B772-65A2-4508-933B-62374081DD81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

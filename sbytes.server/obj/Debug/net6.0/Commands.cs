@@ -35,13 +35,13 @@ namespace sbytes.shared {
             "dGl0eVByb3RvIkIKE1VwZGF0ZVRpY2tldFJlcXVlc3QSKwoGdGlja2V0GAEg",
             "ASgLMhsuY29tbWFuZHMuVGlja2V0RW50aXR5UHJvdG8iOAoUVXBkYXRlVGlj",
             "a2V0UmVzcG9uc2USIAoGc3RhdHVzGAEgASgOMhAuY29tbWFuZHMuU3RhdHVz",
-            "KiIKBlN0YXR1cxILCgdTdWNjZXNzEAASCwoHRmFpbHVyZRACMvMBCgxDb21t",
-            "YW5kc0dycGMSTQoMQ3JlYXRlVGlja2V0Eh0uY29tbWFuZHMuQ3JlYXRlVGlj",
-            "a2V0UmVxdWVzdBoeLmNvbW1hbmRzLkNyZWF0ZVRpY2tldFJlc3BvbnNlEkUK",
-            "ClJlYWRUaWNrZXQSGi5jb21tYW5kcy5HZXRUaWNrZXRSZXF1ZXN0GhsuY29t",
-            "bWFuZHMuR2V0VGlja2V0UmVzcG9uc2USTQoMVXBkYXRlVGlja2V0Eh0uY29t",
-            "bWFuZHMuVXBkYXRlVGlja2V0UmVxdWVzdBoeLmNvbW1hbmRzLlVwZGF0ZVRp",
-            "Y2tldFJlc3BvbnNlQhCqAg1zYnl0ZXMuc2hhcmVkYgZwcm90bzM="));
+            "KiIKBlN0YXR1cxILCgdTdWNjZXNzEAASCwoHRmFpbHVyZRACMvUBCg5Db21t",
+            "YW5kU2VydmljZRJNCgxDcmVhdGVUaWNrZXQSHS5jb21tYW5kcy5DcmVhdGVU",
+            "aWNrZXRSZXF1ZXN0Gh4uY29tbWFuZHMuQ3JlYXRlVGlja2V0UmVzcG9uc2US",
+            "RQoKUmVhZFRpY2tldBIaLmNvbW1hbmRzLkdldFRpY2tldFJlcXVlc3QaGy5j",
+            "b21tYW5kcy5HZXRUaWNrZXRSZXNwb25zZRJNCgxVcGRhdGVUaWNrZXQSHS5j",
+            "b21tYW5kcy5VcGRhdGVUaWNrZXRSZXF1ZXN0Gh4uY29tbWFuZHMuVXBkYXRl",
+            "VGlja2V0UmVzcG9uc2VCEKoCDXNieXRlcy5zaGFyZWRiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::sbytes.shared.Status), }, null, new pbr::GeneratedClrTypeInfo[] {
